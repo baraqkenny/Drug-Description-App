@@ -159,10 +159,10 @@
     .showHistory{
         display: flex;
         flex-wrap: wrap;
-       margin-top: 130px;
+       margin-top: 140px;
         background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         width: 420px;
-        height: 430px;
+        height: 440px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -180,10 +180,10 @@
     .showHistory{
         display: flex;
         flex-wrap: wrap;
-       margin-top: 100px;
+       margin-top: 140px;
         background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         width: 400px;
-        height: 430px;
+        height: 440px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -201,10 +201,10 @@
     .showHistory{
         display: flex;
         flex-wrap: wrap;
-       margin-top: 100px;
+       margin-top: 140px;
         background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         width: 370px;
-        height: 430px;
+        height: 440px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -222,10 +222,10 @@
     .showHistory{
         display: flex;
         flex-wrap: wrap;
-       margin-top: 100px;
+       margin-top: 140px;
         background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         width: 350px;
-        height: 430px;
+        height: 440px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -243,10 +243,10 @@
     .showHistory{
         display: flex;
         flex-wrap: wrap;
-       margin-top: 100px;
+       margin-top: 130px;
         background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         width: 330px;
-        height: 430px;
+        height: 440px;
         position: absolute;
         top: 50%;
         left: 50%;
