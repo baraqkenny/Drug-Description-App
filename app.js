@@ -2,13 +2,23 @@ let inputText = document.getElementById('inputText');
 let submit = document.querySelector('.submit');
 let showHistory = document.querySelector('.showHistory');
 
-submit.addEventListener('click', ()=>{
-    let drugName = "";
-    
-   drugName = inputText.value;
-   
+submit.addEventListener('click', (e)=>{
 
-   
+  e.preventDefault();
+
+
+    let drugName = "";
+    drugName = inputText.value;
+
+
+    if(drugName === ''){
+      showHistory.style.display = 'none'
+    }else{
+      setTimeout(() => {
+        showHistory.style.display = 'block';
+      }, 2000);
+    }
+  
 
  const options = {
     method: 'GET',
@@ -41,9 +51,9 @@ submit.addEventListener('click', ()=>{
 
 
     })
+  
     //.catch(err => console.error(err));
-   
-    setTimeout(() => {
-      showHistory.style.display = 'block';
-    }, 2000);
+  
+    
+      
 })
